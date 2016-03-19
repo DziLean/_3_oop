@@ -29,11 +29,9 @@
         private void InitializeComponent()
         {
             this._Console = new System.Windows.Forms.TextBox();
-            this._List = new System.Windows.Forms.ComboBox();
             this.listAll = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
+            this._Name = new System.Windows.Forms.TextBox();
+            this._Cost = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this._Delete = new System.Windows.Forms.ComboBox();
@@ -48,6 +46,13 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this._Fenibut = new System.Windows.Forms.Button();
+            this._Noshpa = new System.Windows.Forms.Button();
+            this._Smekta = new System.Windows.Forms.Button();
+            this._Tobrecks = new System.Windows.Forms.Button();
+            this._Validol = new System.Windows.Forms.Button();
+            this._Vitus = new System.Windows.Forms.Button();
+            this._SolidLiquid = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // _Console
@@ -58,14 +63,6 @@
             this._Console.Size = new System.Drawing.Size(271, 309);
             this._Console.TabIndex = 0;
             // 
-            // _List
-            // 
-            this._List.FormattingEnabled = true;
-            this._List.Location = new System.Drawing.Point(287, 215);
-            this._List.Name = "_List";
-            this._List.Size = new System.Drawing.Size(135, 21);
-            this._List.TabIndex = 2;
-            // 
             // listAll
             // 
             this.listAll.Location = new System.Drawing.Point(13, 327);
@@ -75,26 +72,19 @@
             this.listAll.Text = "listAll";
             this.listAll.UseVisualStyleBackColor = true;
             // 
-            // textBox1
+            // _Name
             // 
-            this.textBox1.Location = new System.Drawing.Point(288, 56);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(135, 20);
-            this.textBox1.TabIndex = 4;
+            this._Name.Location = new System.Drawing.Point(288, 56);
+            this._Name.Name = "_Name";
+            this._Name.Size = new System.Drawing.Size(135, 20);
+            this._Name.TabIndex = 4;
             // 
-            // textBox2
+            // _Cost
             // 
-            this.textBox2.Location = new System.Drawing.Point(288, 95);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(135, 20);
-            this.textBox2.TabIndex = 5;
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(288, 134);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(135, 20);
-            this.textBox4.TabIndex = 7;
+            this._Cost.Location = new System.Drawing.Point(288, 95);
+            this._Cost.Name = "_Cost";
+            this._Cost.Size = new System.Drawing.Size(135, 20);
+            this._Cost.TabIndex = 5;
             // 
             // label1
             // 
@@ -127,7 +117,7 @@
             this.Serialize.Font = new System.Drawing.Font("Segoe Print", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Serialize.Location = new System.Drawing.Point(330, 307);
             this.Serialize.Name = "Serialize";
-            this.Serialize.Size = new System.Drawing.Size(92, 23);
+            this.Serialize.Size = new System.Drawing.Size(92, 32);
             this.Serialize.TabIndex = 11;
             this.Serialize.Text = "Serialize";
             this.Serialize.UseVisualStyleBackColor = true;
@@ -137,7 +127,7 @@
             this.Deserialize.Font = new System.Drawing.Font("Segoe Print", 8.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Deserialize.Location = new System.Drawing.Point(485, 307);
             this.Deserialize.Name = "Deserialize";
-            this.Deserialize.Size = new System.Drawing.Size(88, 23);
+            this.Deserialize.Size = new System.Drawing.Size(88, 32);
             this.Deserialize.TabIndex = 12;
             this.Deserialize.Text = "Deserialize";
             this.Deserialize.UseVisualStyleBackColor = true;
@@ -189,7 +179,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(289, 197);
+            this.label7.Location = new System.Drawing.Point(469, 40);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(90, 13);
             this.label7.TabIndex = 18;
@@ -223,11 +213,81 @@
             this.label10.TabIndex = 21;
             this.label10.Text = "/";
             // 
+            // _Fenibut
+            // 
+            this._Fenibut.Location = new System.Drawing.Point(472, 56);
+            this._Fenibut.Name = "_Fenibut";
+            this._Fenibut.Size = new System.Drawing.Size(75, 23);
+            this._Fenibut.TabIndex = 22;
+            this._Fenibut.Text = "Fenibut";
+            this._Fenibut.UseVisualStyleBackColor = true;
+            this._Fenibut.Click += new System.EventHandler(this._Fenibut_Click);
+            // 
+            // _Noshpa
+            // 
+            this._Noshpa.Location = new System.Drawing.Point(472, 85);
+            this._Noshpa.Name = "_Noshpa";
+            this._Noshpa.Size = new System.Drawing.Size(75, 23);
+            this._Noshpa.TabIndex = 23;
+            this._Noshpa.Text = "Noshpa";
+            this._Noshpa.UseVisualStyleBackColor = true;
+            // 
+            // _Smekta
+            // 
+            this._Smekta.Location = new System.Drawing.Point(472, 113);
+            this._Smekta.Name = "_Smekta";
+            this._Smekta.Size = new System.Drawing.Size(75, 23);
+            this._Smekta.TabIndex = 24;
+            this._Smekta.Text = "Smekta";
+            this._Smekta.UseVisualStyleBackColor = true;
+            // 
+            // _Tobrecks
+            // 
+            this._Tobrecks.Location = new System.Drawing.Point(472, 142);
+            this._Tobrecks.Name = "_Tobrecks";
+            this._Tobrecks.Size = new System.Drawing.Size(75, 23);
+            this._Tobrecks.TabIndex = 25;
+            this._Tobrecks.Text = "Tobrecks";
+            this._Tobrecks.UseVisualStyleBackColor = true;
+            // 
+            // _Validol
+            // 
+            this._Validol.Location = new System.Drawing.Point(472, 171);
+            this._Validol.Name = "_Validol";
+            this._Validol.Size = new System.Drawing.Size(75, 23);
+            this._Validol.TabIndex = 26;
+            this._Validol.Text = "Validol";
+            this._Validol.UseVisualStyleBackColor = true;
+            // 
+            // _Vitus
+            // 
+            this._Vitus.Location = new System.Drawing.Point(472, 200);
+            this._Vitus.Name = "_Vitus";
+            this._Vitus.Size = new System.Drawing.Size(75, 23);
+            this._Vitus.TabIndex = 27;
+            this._Vitus.Text = "Vitus";
+            this._Vitus.UseVisualStyleBackColor = true;
+            // 
+            // _SolidLiquid
+            // 
+            this._SolidLiquid.FormattingEnabled = true;
+            this._SolidLiquid.Location = new System.Drawing.Point(290, 133);
+            this._SolidLiquid.Name = "_SolidLiquid";
+            this._SolidLiquid.Size = new System.Drawing.Size(132, 21);
+            this._SolidLiquid.TabIndex = 28;
+            // 
             // DrugSpace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(612, 362);
+            this.Controls.Add(this._SolidLiquid);
+            this.Controls.Add(this._Vitus);
+            this.Controls.Add(this._Validol);
+            this.Controls.Add(this._Tobrecks);
+            this.Controls.Add(this._Smekta);
+            this.Controls.Add(this._Noshpa);
+            this.Controls.Add(this._Fenibut);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -242,11 +302,9 @@
             this.Controls.Add(this._Delete);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox4);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this._Cost);
+            this.Controls.Add(this._Name);
             this.Controls.Add(this.listAll);
-            this.Controls.Add(this._List);
             this.Controls.Add(this._Console);
             this.Name = "DrugSpace";
             this.Text = "DrugSpace";
@@ -258,11 +316,9 @@
         #endregion
 
         private System.Windows.Forms.TextBox _Console;
-        private System.Windows.Forms.ComboBox _List;
         private System.Windows.Forms.Button listAll;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox _Name;
+        private System.Windows.Forms.TextBox _Cost;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.ComboBox _Delete;
@@ -277,6 +333,13 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Button _Fenibut;
+        private System.Windows.Forms.Button _Noshpa;
+        private System.Windows.Forms.Button _Smekta;
+        private System.Windows.Forms.Button _Tobrecks;
+        private System.Windows.Forms.Button _Validol;
+        private System.Windows.Forms.Button _Vitus;
+        private System.Windows.Forms.ComboBox _SolidLiquid;
     }
 }
 

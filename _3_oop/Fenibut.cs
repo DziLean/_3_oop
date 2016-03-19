@@ -13,7 +13,7 @@ namespace _3_oop
         {
 
         }
-        public Fenibut(string _Name,int _Cost,int _State,bool Receipt):base(_Name, _Cost, _State, Receipt)
+        public Fenibut(string _Name,int _Cost,string _State,bool Receipt):base(_Name, _Cost, _State, Receipt)
         {
 
         }

@@ -10,13 +10,13 @@ namespace _3_oop
     {
         public string Name { get; set; }
         public int Cost { get; set; }
-        public int State { get; set; }
+        public string State { get; set; }
         public bool RecieptFree { get; set; }
         public Drug()
         {
 
         }
-        public Drug(string _Name,int _Cost,int _State,bool Receipt)
+        public Drug(string _Name,int _Cost,string _State,bool Receipt)
         {
             Name = _Name;
             Cost = _Cost;
