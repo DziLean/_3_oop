@@ -33,8 +33,13 @@ namespace _3_oop
 
         private void _Fenibut_Click(object sender, EventArgs e)
         {
-            Fenibut Feni = new Fenibut(_Name.Text.Trim(),int.Parse(_Cost.Text),_SolidLiquid.SelectedItem.ToString(), Convert.ToBoolean(_Bool.SelectedItem));
+            Butterfly Feni = new Butterfly(_Name.Text.Trim(),int.Parse(_Cost.Text),_SolidLiquid.SelectedItem.ToString(), Convert.ToBoolean(_Bool.SelectedItem));
             ListOfDrugs.Add(Feni);
+        }
+
+        private void _Name_TextChanged(object sender, EventArgs e)
+        {
+
         }
             
     }

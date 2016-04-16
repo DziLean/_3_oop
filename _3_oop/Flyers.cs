@@ -6,31 +6,32 @@ using System.Threading.Tasks;
 
 namespace _3_oop
 {
-    class Flyers:Animal
+    abstract class Flyers:Animal
     {
-
-        public bool IsFlyer { get; set; }
+        public bool IsBird{ get; set; }
         public int WingsQuantity { get; set; }
-        public Flyers(int _Age, bool _IsHealthy)
-            : base( _Age, _IsHealthy)
+        public Flyers(string _Name,int _Age, bool _IsHealthy,int  _WingsQuantity, bool _IsBird)
+            : base(_Name,_Age, _IsHealthy)
         {
-
+            Name = _Name;
+            WingsQuantity = _WingsQuantity;
+            IsBird = _IsBird;
         }
         public override string Move()
         {
             return "I'm flying yeah!";
         }
-        public string SayIsFlyer()
+        public string SayIsBird()
         {
-            if (IsFlyer)
+            if (IsBird)
             {
-                return "Flyer!";
+                return "Bird!";
             }
-            else return "NotaFlyer!";
-        }
+            else return "Notabird!";
+        }       
         public virtual string Fly()
         {
-            return "I cannot I am not existing";
+            return "I cannot I do not know how to!";
         }
     }
 }

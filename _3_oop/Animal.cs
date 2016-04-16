@@ -8,14 +8,16 @@ namespace _3_oop
 {
     public abstract class Animal
     {
+        public string Name { get; set; }
         public int Age { get; set; }
         public bool IsHealthy { get; set; }
         public Animal()
         {
 
         }
-        public Animal(int _Age, bool _IsHealthy)
+        public Animal(string _Name,int _Age, bool _IsHealthy)
         {
+            Name = _Name;
             Age = _Age;
             IsHealthy = _IsHealthy;
         }

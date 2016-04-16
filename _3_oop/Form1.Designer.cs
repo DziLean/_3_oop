@@ -78,6 +78,7 @@
             this._Name.Name = "_Name";
             this._Name.Size = new System.Drawing.Size(135, 20);
             this._Name.TabIndex = 4;
+            this._Name.TextChanged += new System.EventHandler(this._Name_TextChanged);
             // 
             // _Cost
             // 
@@ -91,9 +92,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(287, 12);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(72, 13);
+            this.label1.Size = new System.Drawing.Size(79, 13);
             this.label1.TabIndex = 8;
-            this.label1.Text = "Drug Creation";
+            this.label1.Text = "Animal creation";
             // 
             // label2
             // 
@@ -181,9 +182,9 @@
             this.label7.AutoSize = true;
             this.label7.Location = new System.Drawing.Point(469, 40);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(90, 13);
+            this.label7.Size = new System.Drawing.Size(99, 13);
             this.label7.TabIndex = 18;
-            this.label7.Text = "Choose your drug";
+            this.label7.Text = "Choose your animal";
             // 
             // label8
             // 
@@ -307,7 +308,7 @@
             this.Controls.Add(this.listAll);
             this.Controls.Add(this._Console);
             this.Name = "DrugSpace";
-            this.Text = "DrugSpace";
+            this.Text = "Animal planet";
             this.ResumeLayout(false);
             this.PerformLayout();
 
