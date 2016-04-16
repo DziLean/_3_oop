@@ -60,7 +60,7 @@
     <Compile Include="Swimmers.cs" />
     <Compile Include="Dolphin.cs" />
     <Compile Include="Fox.cs" />
-    <Compile Include="Frog.cs" />
+    <Compile Include="Snake.cs" />
     <Compile Include="WalkersCrawlers.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

@@ -10,10 +10,10 @@ using System.Windows.Forms;
 
 namespace _3_oop
 {
-    public partial class DrugSpace : Form
+    public partial class AnimalSpace : Form
     {
-        public List<Drug> ListOfDrugs { get; set; }
-        public DrugSpace()
+        public List<Animal> ListOfAnimal { get; set; }
+        public AnimalSpace()
         {
             InitializeComponent();          
             _SolidLiquid.Items.Add("Solid");

@@ -1,6 +1,6 @@
 ﻿namespace _3_oop
 {
-    partial class DrugSpace
+    partial class AnimalSpace
     {
         /// <summary>
         /// Требуется переменная конструктора.
@@ -180,7 +180,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(469, 40);
+            this.label7.Location = new System.Drawing.Point(509, 42);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(99, 13);
             this.label7.TabIndex = 18;
@@ -216,57 +216,57 @@
             // 
             // _Fenibut
             // 
-            this._Fenibut.Location = new System.Drawing.Point(472, 56);
+            this._Fenibut.Location = new System.Drawing.Point(512, 58);
             this._Fenibut.Name = "_Fenibut";
             this._Fenibut.Size = new System.Drawing.Size(75, 23);
             this._Fenibut.TabIndex = 22;
-            this._Fenibut.Text = "Fenibut";
+            this._Fenibut.Text = "Bird";
             this._Fenibut.UseVisualStyleBackColor = true;
             this._Fenibut.Click += new System.EventHandler(this._Fenibut_Click);
             // 
             // _Noshpa
             // 
-            this._Noshpa.Location = new System.Drawing.Point(472, 85);
+            this._Noshpa.Location = new System.Drawing.Point(512, 87);
             this._Noshpa.Name = "_Noshpa";
             this._Noshpa.Size = new System.Drawing.Size(75, 23);
             this._Noshpa.TabIndex = 23;
-            this._Noshpa.Text = "Noshpa";
+            this._Noshpa.Text = "Butterfly";
             this._Noshpa.UseVisualStyleBackColor = true;
             // 
             // _Smekta
             // 
-            this._Smekta.Location = new System.Drawing.Point(472, 113);
+            this._Smekta.Location = new System.Drawing.Point(512, 115);
             this._Smekta.Name = "_Smekta";
             this._Smekta.Size = new System.Drawing.Size(75, 23);
             this._Smekta.TabIndex = 24;
-            this._Smekta.Text = "Smekta";
+            this._Smekta.Text = "Fox";
             this._Smekta.UseVisualStyleBackColor = true;
             // 
             // _Tobrecks
             // 
-            this._Tobrecks.Location = new System.Drawing.Point(472, 142);
+            this._Tobrecks.Location = new System.Drawing.Point(512, 144);
             this._Tobrecks.Name = "_Tobrecks";
             this._Tobrecks.Size = new System.Drawing.Size(75, 23);
             this._Tobrecks.TabIndex = 25;
-            this._Tobrecks.Text = "Tobrecks";
+            this._Tobrecks.Text = "Frog";
             this._Tobrecks.UseVisualStyleBackColor = true;
             // 
             // _Validol
             // 
-            this._Validol.Location = new System.Drawing.Point(472, 171);
+            this._Validol.Location = new System.Drawing.Point(512, 173);
             this._Validol.Name = "_Validol";
             this._Validol.Size = new System.Drawing.Size(75, 23);
             this._Validol.TabIndex = 26;
-            this._Validol.Text = "Validol";
+            this._Validol.Text = "Salmon";
             this._Validol.UseVisualStyleBackColor = true;
             // 
             // _Vitus
             // 
-            this._Vitus.Location = new System.Drawing.Point(472, 200);
+            this._Vitus.Location = new System.Drawing.Point(512, 202);
             this._Vitus.Name = "_Vitus";
             this._Vitus.Size = new System.Drawing.Size(75, 23);
             this._Vitus.TabIndex = 27;
-            this._Vitus.Text = "Vitus";
+            this._Vitus.Text = "Dolphin";
             this._Vitus.UseVisualStyleBackColor = true;
             // 
             // _SolidLiquid
@@ -277,7 +277,7 @@
             this._SolidLiquid.Size = new System.Drawing.Size(132, 21);
             this._SolidLiquid.TabIndex = 28;
             // 
-            // DrugSpace
+            // AnimalSpace
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -307,7 +307,7 @@
             this.Controls.Add(this._Name);
             this.Controls.Add(this.listAll);
             this.Controls.Add(this._Console);
-            this.Name = "DrugSpace";
+            this.Name = "AnimalSpace";
             this.Text = "Animal planet";
             this.ResumeLayout(false);
             this.PerformLayout();

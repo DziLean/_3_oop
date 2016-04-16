@@ -10,9 +10,11 @@ namespace _3_oop
     {
         public bool IsBird{ get; set; }
         public int WingsQuantity { get; set; }
-        public Flyers(string _Name,int _Age, bool _IsHealthy,int  _WingsQuantity, bool _IsBird)
-            : base(_Name,_Age, _IsHealthy)
+        public bool CanFly { get; set; }
+        public Flyers(string _Name,int _Age, bool _CanFly,int  _WingsQuantity, bool _IsBird)
+            : base(_Name, _Age)
         {
+            CanFly = _CanFly;
             Name = _Name;
             WingsQuantity = _WingsQuantity;
             IsBird = _IsBird;
