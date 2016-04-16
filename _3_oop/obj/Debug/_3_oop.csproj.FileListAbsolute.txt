@@ -2,9 +2,9 @@ c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\bin\Debug\_3_oo
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\bin\Debug\_3_oop.exe
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\bin\Debug\_3_oop.pdb
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.csprojResolveAssemblyReference.cache
-c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.DrugSpace.resources
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.Properties.Resources.resources
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.csproj.GenerateResource.Cache
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.exe
 c:\users\dzi\documents\visual studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.pdb
-C:\Users\dzi\Documents\Visual Studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.AnimalSpace.resources
+C:\Users\dzi\Documents\Visual Studio 2012\Projects\_3_oop\_3_oop\obj\Debug\_3_oop.FlyerName.resources
+C:\Users\dzi\Documents\Visual Studio 2012\Projects\_3_oop\_3_oop\bin\Debug\Newtonsoft.Json.dll

@@ -8,11 +8,12 @@ namespace _3_oop
 {
     class Butterfly:Flyers
     {        
-        public int DayToLive {get;set;}
-        public Butterfly(string _Name, int _Age, bool _CanFly, int _WingsQuantity, int _DayToLive, bool _IsBird = false)
+        public Butterfly(string _Name, int _Age, bool _CanFly, int _WingsQuantity,  bool _IsBird = false)
             : base(_Name, _Age, _CanFly, _WingsQuantity, _IsBird)
         {
-            DayToLive = _DayToLive;
-        }       
+        }
+        public Butterfly()
+        {
+        }  
     }
 }

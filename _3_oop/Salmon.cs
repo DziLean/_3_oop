@@ -12,6 +12,10 @@ namespace _3_oop
             : base(_Name, _Age, _Location, _Speed, _IsFish)
         {
             
-        }        
+        }
+        public Salmon()
+        {
+
+        } 
     }
 }

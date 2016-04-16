@@ -16,7 +16,8 @@ namespace _3_oop
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new DrugSpace());
+            Application.Run(new FlyerName());
         }
+        
     }
 }

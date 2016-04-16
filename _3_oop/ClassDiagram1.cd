@@ -28,10 +28,10 @@
       <FileName>Flyers.cs</FileName>
     </TypeIdentifier>
   </Class>
-  <Class Name="_3_oop.AnimalSpace" Collapsed="true">
+  <Class Name="_3_oop.FlyerName" Collapsed="true">
     <Position X="9.75" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>HAAAAAgAACAAEBAAAACAIADGACBEAAAAABCIAoAAAAE=</HashCode>
+      <HashCode>/0BBgiQACCBQAJAIgQCCAABSICRMBAABAgAOAIAAADE=</HashCode>
       <FileName>Form1.cs</FileName>
     </TypeIdentifier>
   </Class>
@@ -80,7 +80,7 @@
   <Class Name="_3_oop.WalkersCrawlers" Collapsed="true">
     <Position X="7.5" Y="1" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAABAAAAAAA=</HashCode>
       <FileName>WalkersCrawlers.cs</FileName>
     </TypeIdentifier>
   </Class>

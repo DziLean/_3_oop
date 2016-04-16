@@ -8,11 +8,12 @@ namespace _3_oop
 {
     class Bird: Flyers
     {
-        public bool IsPredator {get;set;}
-        public Bird(string _Name, int _Age, bool _CanFly, int _WingsQuantity, bool _IsPredator, bool _IsBird = true)
+        public Bird(string _Name, int _Age, bool _CanFly, int _WingsQuantity, bool _IsBird = true)
             : base(_Name, _Age, _CanFly, _WingsQuantity, _IsBird)
         {
-            _IsPredator = IsPredator;
-        }       
+        }
+        public Bird()
+        {
+        }      
     }
 }

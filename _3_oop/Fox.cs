@@ -9,12 +9,15 @@ namespace _3_oop
     class Fox:WalkersCrawlers
     {
         public string WhatDoesTheFoxSay { get; set; }
-        public int Speed { get; set; }
-        public Fox(string _Name, int _Age,int _Speed,string _WhatDoesTheFoxSay, string _Areal,bool _IsWalker=true)
-            : base(_Name, _Age, _Areal,_IsWalker)
+        public Fox()
         {
-            Speed = _Speed;
+            
+        }    
+        public Fox(string _Name, int _Age,string _WhatDoesTheFoxSay, string _Areal,bool _IsWalker=true)
+            : base(_Name, _Age, _Areal,_IsWalker)
+        {           
             WhatDoesTheFoxSay = _WhatDoesTheFoxSay;
-        }         
+        }        
+ 
     }
 }

@@ -19,5 +19,9 @@ namespace _3_oop
             WingsQuantity = _WingsQuantity;
             IsBird = _IsBird;
         }
+        public Flyers()
+        {
+           
+        }
     }
 }

@@ -16,5 +16,9 @@ namespace _3_oop
             Areal = _Areal;
             IsWalker = _IsWalker;
         }
+        public WalkersCrawlers()
+        {
+            
+        }
     }
 }

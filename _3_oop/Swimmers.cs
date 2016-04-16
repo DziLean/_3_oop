@@ -19,5 +19,8 @@ namespace _3_oop
             IsFish = _IsFish;
             Speed = _Speed;
         }
+        public Swimmers()
+        {
+        }
     }
 }
