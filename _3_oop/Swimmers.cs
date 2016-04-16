@@ -17,21 +17,5 @@ namespace _3_oop
             IsFish = _IsFish;
             Speed = _Speed;
         }
-        public override string Move()
-        {
-            return "I'm swimming yeah!";
-        }
-        public string SayIsFish()
-        {
-            if (IsFish)
-            {
-                return "Fish!";
-            }
-            else return "Notafish!";
-        }       
-        public virtual string Swim()
-        {
-            return "I cannot I do not know how to!";
-        }
     }
 }

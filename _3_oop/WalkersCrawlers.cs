@@ -14,21 +14,5 @@ namespace _3_oop
         {
             IsWalker = _IsWalker;
         }
-        public override string Move()
-        {
-            return "I'm walking yeah!";
-        }
-        public string SayIsWalker()
-        {
-            if (IsWalker)
-            {
-                return "Walker!";
-            }
-            else return "NotaWalker!";
-        }
-        public virtual string Walk()
-        {
-            return "I cannot I do not know how to!";
-        }
     }
 }

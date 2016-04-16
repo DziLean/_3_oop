@@ -16,15 +16,5 @@ namespace _3_oop
             Areal = _Areal;
             WhatDoesTheFrogSay = _WhatDoesTheFrogSay;
         }
-
-        public override string Walk()
-        {
-            return "I am a froggy I am jumping!";
-        }
-        public override string SayWhoYouAre()
-        {
-            return "I am |" + this.Name + "| I am |" + this.Age + "| years old! Am I healthy? |" + this.IsHealthy + "| !" +
-            "I live in|" + this.Areal + "|! Am I a walker? | " + this.IsWalker + "| ! What does the frog say? |" + WhatDoesTheFrogSay + " |";;
-        }       
     }
 }

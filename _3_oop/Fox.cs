@@ -15,16 +15,6 @@ namespace _3_oop
         {
             Speed = _Speed;
             WhatDoesTheFoxSay = _WhatDoesTheFoxSay;
-        }
-
-        public override string Walk()
-        {
-            return "I am a foxy I am running!";
-        }
-        public override string SayWhoYouAre()
-        {
-            return "I am |" + this.Name + "| I am |" + this.Age + "| years old! Am I healthy? |" + this.IsHealthy + "| !" +
-            "I run at|" + this.Speed + "| km/h! Am I a walker? | " + this.IsWalker + "| ! What does the fox say? +" + WhatDoesTheFoxSay + " |";
-        }       
+        }         
     }
 }

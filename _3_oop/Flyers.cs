@@ -17,21 +17,5 @@ namespace _3_oop
             WingsQuantity = _WingsQuantity;
             IsBird = _IsBird;
         }
-        public override string Move()
-        {
-            return "I'm flying yeah!";
-        }
-        public string SayIsBird()
-        {
-            if (IsBird)
-            {
-                return "Bird!";
-            }
-            else return "Notabird!";
-        }       
-        public virtual string Fly()
-        {
-            return "I cannot I do not know how to!";
-        }
     }
 }

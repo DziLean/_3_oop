@@ -21,13 +21,5 @@ namespace _3_oop
             Age = _Age;
             IsHealthy = _IsHealthy;
         }
-        public virtual string SayWhoYouAre()
-        {
-            return "I am " + this.Age + " years old! Am I healthy? "+ this.IsHealthy+ " !"; 
-        }
-        public virtual string Move()
-        {
-            return "Oops I am not a creature!";
-        }
     }
 }
