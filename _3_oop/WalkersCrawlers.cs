@@ -9,9 +9,11 @@ namespace _3_oop
     class WalkersCrawlers:Animal
     {
         public bool IsWalker { get; set; }
-        public WalkersCrawlers(string _Name,int _Age,bool _IsWalker)
+        public string Areal { get; set; }
+        public WalkersCrawlers(string _Name,int _Age,string _Areal,bool _IsWalker)
             : base(_Name, _Age)
         {
+            Areal = _Areal;
             IsWalker = _IsWalker;
         }
     }

@@ -10,17 +10,17 @@ using System.Windows.Forms;
 
 namespace _3_oop
 {
-    public partial class AnimalSpace : Form
+    public partial class FlyerName : Form
     {
         public List<Animal> ListOfAnimal { get; set; }
-        public AnimalSpace()
+        public FlyerName()
         {
             InitializeComponent();          
             _SolidLiquid.Items.Add("Solid");
             _SolidLiquid.Items.Add("Liquid");
-            _Bool.Items.Add("true");
-            _Bool.Items.Add("false");
-            _Bool.SelectedItem = "true";
+            CanFly.Items.Add("true");
+            CanFly.Items.Add("false");
+            CanFly.SelectedItem = "true";
             _SolidLiquid.SelectedItem = "Solid";
             ListOfDrugs = new List<Drug>();
 
@@ -33,11 +33,26 @@ namespace _3_oop
 
         private void _Fenibut_Click(object sender, EventArgs e)
         {
-            Butterfly Feni = new Butterfly(_Name.Text.Trim(),int.Parse(_Cost.Text),_SolidLiquid.SelectedItem.ToString(), Convert.ToBoolean(_Bool.SelectedItem));
+            Butterfly Feni = new Butterfly(SwimmersName.Text.Trim(),int.Parse(SwimmersAge.Text),_SolidLiquid.SelectedItem.ToString(), Convert.ToBoolean(CanFly.SelectedItem));
             ListOfDrugs.Add(Feni);
         }
 
         private void _Name_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void AnimalSpace_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
         {
 
         }
@@ -48,7 +63,7 @@ namespace _3_oop
   //          Noshpa Nosh = new Noshpa();
   //          Smekta Smek = new Smekta();
   //          Tobrecks Tobr = new Tobrecks();
-  //          Validol Vali = new Validol();
+  //          Validol Vali = new Validol();y
   //          Vitus Vitu = new Vitus();
   //          _List.Items.Add(Feni);
   //          _List.Items.Add(Nosh);
