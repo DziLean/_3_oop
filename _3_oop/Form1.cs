@@ -13,8 +13,6 @@ namespace _3_oop
 {
     public partial class FlyerName : Form
     {
-        public static List<Animal> LType = new List<Animal>();
-
 
         public static bool IsValid(string a, string b = "1")
         {
@@ -53,12 +51,7 @@ namespace _3_oop
             FlyersCanFly.SelectedItem = "true";
             ListOfAnimal = new List<Animal>();
 
-            LType.Add(new Salmon());
-            LType.Add(new Dolphin());
-            LType.Add(new Fox());
-            LType.Add(new Snake());
-            LType.Add(new Bird());
-            LType.Add(new Butterfly());
+           
         }
 
         private void _List_SelectedIndexChanged(object sender, EventArgs e)
